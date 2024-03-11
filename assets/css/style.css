@@ -16,9 +16,6 @@ a {
     color: white;
 }
 
-/* Cursor Circle 
-code from: https://jsfiddle.net/ydchauh/4cbk0sq5/ */
-
 .cursorCircle {
   position: fixed;
   border-radius: 50%;
