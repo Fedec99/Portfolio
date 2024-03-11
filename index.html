@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico Carcone</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/TextPlugin.min.js" defer></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module" defer></script> 
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js" defer></script> 
+    <script src="assets/js/script.js" defer></script>
+
+</head>
+<body>
+    
+    <div class="loaderContainer">
+        <div class="loader"></div>
+    </div>
+    
+    <div id="pageContent">
+        <header>
+            <nav>
+                <ul>
+                    <li><button class="magneto"><span class="magnetoText"><a href="#hero" onclick="lenis.scrollTo('#hero', {duration: 1.5})"><i class="bi bi-house-fill"></i></a></span></button></li>
+                    <li><button class="magneto"><span class="magnetoText"><a href="#portfolio" onclick="lenis.scrollTo('#portfolio', {duration: 1.5})"><i class="bi bi-file-earmark-code-fill"></i></a></span></button></li>
+                    <li><button class="magneto"><span class="magnetoText"><a href="#aboutMe" onclick="lenis.scrollTo('#aboutMe', {duration: 1.5})"><i class="bi bi-person-circle"></i></a></span></button></li>
+                    <li><button class="magneto"><span class="magnetoText"><a href="#contacts" onclick="lenis.scrollTo('#contacts', {duration: 1.5})"><i class="bi bi-envelope-fill"></i></a></span></button></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="hero">
+                <div id="heroTop">
+                    <div class="logoContainer">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </div>
+                    <h1>
+                        Hey there!<br>
+                        I'm Federico Carcone, a:<br>
+                        <span id="typeWriter"></span>
+                        <span id="typeCursor">|</span>
+                    </h1>
+                </div>
+                <div id="heroBot">
+                    <dotlottie-player src="https://lottie.host/3839ade2-cdfe-43ce-9632-265846cbf816/htvkZeyedc.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></dotlottie-player>
+                </div>
+            </section>
+            <section id="portfolio">
+                <h1 id="portfolioTitle">PORTFOLIO</h1>
+                <div class="project">
+                    <div class="projectText">
+                        <h3 class="projectType">Personal project</h3>
+                        <h2 class="projectName">Pokedex</h2>
+                        <p class="moreInfo"><a href="https://github.com/Fedec99/Pokedex" target="_blank">See more <i class="bi bi-arrow-right"></i></a></p>
+                    </div>
+                    <div class="projectMedia">
+                        <img src="assets/images/pokedex.png" alt="project">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectText">
+                        <h3 class="projectType">Personal project - React</h3>
+                        <h2 class="projectName"></h2>
+                        <p class="moreInfo"><a href="" target="_blank">See more <i class="bi bi-arrow-right"></i></a></p>
+                    </div>
+                    <div class="projectMedia">
+                        <img src="" alt="project">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectText">
+                        <h3 class="projectType">Group project</h3>
+                        <h2 class="projectName">Epicode benchmark</h2>
+                        <p class="moreInfo"><a href="https://github.com/Kingvegeth/fs0124b-build-week-1" target="_blank">See more <i class="bi bi-arrow-right"></i></a></p>
+                    </div>
+                    <div class="projectMedia">
+                        <img src="assets/images/benchmark.png" alt="project">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="projectText">
+                        <h3 class="projectType">Group project</h3>
+                        <h2 class="projectName">Spotify Clone</h2>
+                        <p class="moreInfo"><a href="" target="_blank">See more <i class="bi bi-arrow-right"></i></a></p>
+                    </div>
+                    <div class="projectMedia">
+                        <img src="assets/images/spotify.png" alt="project">
+                    </div>
+                </div>
+            </section>
+            <section id="aboutMe">
+                <h1 id="aboutMeTitle">About me</h1>
+                <div id="aboutMeContainer">
+                    <div class="aboutMeLeft">
+                        <img src="assets/images/aboutme.png" alt="aboutMe">
+                    </div>
+                    <div class="aboutMeRight">
+                        <h2>Hello!</h2>
+                        <p>My name is Federico Carcone, and I'm 24 years old student from Italy!<br>
+                        I'm currently studying at EPICODE - Fullstack developer course.<br>
+                        I always had a passion for coding since I was 12 years old.<br>
+                        I started studying C++, C#, Python, on my own, to become a game developer, but I realized that it wasn't what I was looking for.<br>
+                        Can't wait to take my skills to the next level!</p>
+
+                    <p>HTML</p>
+                    <div class="container">
+                    <div class="skills html">68%</div>
+                    </div>
+
+                    <p>CSS</p>
+                    <div class="container">
+                    <div class="skills css">70%</div>
+                    </div>
+
+                    <p>JavaScript</p>
+                    <div class="container">
+                    <div class="skills js">64%</div>
+                    </div>
+
+                    <p>SASS</p>
+                    <div class="container">
+                    <div class="skills sass">52%</div>
+                    </div>
+
+                    <p>BOOTSTRAP</p>
+                    <div class="container">
+                    <div class="skills boot">60%</div>
+                    </div>
+
+                    <p>ANGULAR</p>
+                    <div class="container">
+                    <div class="skills ang">...</div>
+                    </div>
+                </div>
+            </div>
+                
+            </section>
+            
+
+        </main>
+        <section id="contacts">
+            <h1 id="contactsTitle">Contacts</h1>
+            <nav id="contactsNav">
+                <ul>
+                    <li><a href="https://www.facebook.com/federico.carcone.1" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/_law_less_99/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://github.com/Fedec99" target="_blank"><i class="bi bi-github"></i></a></li>
+                    <li><a href="https://wa.me/3388407108" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                    <li><a href="tel:+393388407108" target="_blank"><i class="bi bi-telephone-fill"></i></a></li>
+                    <li><a href="mailto: fedec.1411@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i></a></li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+    
+
+    <!-- <div class="cursorCircle" id="cursorCircle"></div> -->
+
+</body>
+</html>
