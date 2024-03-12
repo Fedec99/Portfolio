@@ -409,9 +409,9 @@ html.lenis {
   color: white; /* White text color */
 }
 
-.html {width: 68%; background-color: #04AA6D;} /* Green */
-.css {width: 70%; background-color: #2196F3;} /* Blue */
-.js {width: 64%; background-color: #f44336;} /* Red */
-.sass {width: 52%; background-color: #808080;} 
+.html {width: 68%; background-color: orangered;} 
+.css {width: 70%; background-color: #2196F3;} 
+.js {width: 64%; background-color: gold;} 
+.sass {width: 52%; background-color: red;} 
 .boot {width: 60%; background-color: blueviolet}
-.ang {width: 0%; background-color: gold;}
+.ang {width: 0%; background-color: blue;}
