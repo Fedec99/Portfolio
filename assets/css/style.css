@@ -399,19 +399,20 @@ html.lenis {
 /* Container for skill bars */
 .container {
   width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  background-color: gray; /* Grey background */
 }
 
 .skills {
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  color: #ddd; /* White text color */
 }
 
-.html {width: 68%; background-color: orangered;} 
-.css {width: 70%; background-color: #2196F3;} 
-.js {width: 64%; background-color: gold;} 
-.sass {width: 52%; background-color: red;} 
-.boot {width: 60%; background-color: blueviolet}
+.html {width: 69%; background-color: rgb(219, 70, 15);} 
+.css {width: 70%; background-color: #1877c5;} 
+.js {width: 66%; background-color: rgb(199, 171, 12);} 
+.sass {width: 56%; background-color: rgb(219, 22, 81);} 
+.boot {width: 64%; background-color: rgb(138, 43, 226)}
+.type {width: 0%; background-color: aqua;}
 .ang {width: 0%; background-color: blue;}
