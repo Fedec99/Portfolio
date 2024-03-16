@@ -157,6 +157,7 @@ main {
   min-width: 150px;
   width: 100%;
   max-width: 200px;
+  border-radius: 70%;
 }
 
 #heroTop h1 {
@@ -297,7 +298,10 @@ h1 span {
 }
 
 .aboutMeLeft img {
+  max-height: 80%;
   width: 100%;
+  border-radius: 10%;
+  margin-left: 50px;
 }
 
 .aboutMeRight {
@@ -398,15 +402,15 @@ html.lenis {
 
 /* Container for skill bars */
 .container {
-  width: 100%; /* Full width */
-  background-color: gray; /* Grey background */
+  width: 70%; 
+  background-color: gray; 
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: #ddd; /* White text color */
+  text-align: right; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ddd; 
 }
 
 .html {width: 69%; background-color: rgb(219, 70, 15);} 
