@@ -416,10 +416,10 @@ html.lenis {
 .html {width: 69%; background-color: rgb(219, 70, 15);} 
 .css {width: 70%; background-color: #1877c5;} 
 .js {width: 66%; background-color: rgb(199, 171, 12);} 
-.sass {width: 56%; background-color: rgb(219, 22, 81);} 
 .boot {width: 64%; background-color: rgb(138, 43, 226)}
-.type {width: 0%; background-color: aqua;}
-.ang {width: 0%; background-color: blue;}
+.sass {width: 56%; background-color: rgb(219, 22, 81);} 
+.type {width: 80%; background-color: rgb(2, 5, 163);}
+.ang {width: 77%; background-color: rgb(196, 8, 64);}
 
 footer {
   background-color: rgba(255,255,255,0.1);
