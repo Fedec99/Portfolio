@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
 })
 
 // Type effect
-const words = ['Fullstack Developer', 'Student']
+const words = ['Frontend Developer', 'Backend Developer', 'Fullstack Developer']
 
 let mainTimeline = gsap.timeline({
     repeat: -1
