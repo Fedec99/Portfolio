@@ -502,6 +502,72 @@ h1 span {
   font-size: 1.4em;
 }
 
+/* Skills */
+
+#skills {
+  position: relative;
+  padding: 300px 0 0 0;
+  margin: 0 0 400px 0;
+}
+
+#skills h1 {
+  color: #f26e04;
+  position: absolute;
+  top: 0px;
+  left: 57%;
+  transform: translateX(-43%);
+  font-size: 4em;
+  margin: 0 0 200px 0;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+#skillsContainer {
+  margin: 0 0 0 10%;
+  display: flex;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.skillsLeft {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 75px;
+}
+
+.skillsLeft h2 {
+  font-size: 3em;
+  margin: 0 0 100px 0;
+}
+
+.skillsLeft p {
+  line-height: 2;
+  font-size: 1.4em;
+}
+
+.skillsRight {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 75px;
+}
+
+.skillsRight h2 {
+  font-size: 3em;
+  margin: 0 0 100px 0;
+}
+
+.skillsRight p {
+  line-height: 2;
+  font-size: 1.4em;
+}
+
 /* Contacts */
 
 #contacts {
