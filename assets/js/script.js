@@ -158,7 +158,7 @@ gsap.to(portfolio, {
 
 
 
-// About me
+// Askills
 const aboutMe = document.querySelector('#aboutMeTitle')
 const aboutMeDiv = document.querySelector('#aboutMe')
 const aboutMeContainer = document.querySelector('#aboutMeContainer')
@@ -194,6 +194,44 @@ gsap.to(aboutMeContainer, {
     xPercent: 0,
     opacity: 1,
 })
+
+//Skills
+const skills = document.querySelector('#skillsTitle')
+const skillsDiv = document.querySelector('#skills')
+const skillsContainer = document.querySelector('#skillsContainer')
+
+gsap.set(skills, {
+    xPercent: -100,
+    opacity: 0
+})
+
+gsap.set(skillsContainer, {
+    xPercent: 30,
+    opacity: 0
+})
+
+gsap.to(skills, {
+    scrollTrigger: {
+        trigger: skillsDiv,
+        start: 'top bottom',
+        end: 'top 10%',
+        scrub: true
+    },
+    xPercent: 0,
+    opacity: 1,
+})
+
+gsap.to(skillsContainer, {
+    scrollTrigger: {
+        trigger: skillsContainer,
+        start: 'top bottom',
+        end: 'bottom 90%',
+        scrub: true
+    },
+    xPercent: 0,
+    opacity: 1,
+})
+
 
 //Contacts
 const contacts = document.querySelector('#contactsTitle')
