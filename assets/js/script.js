@@ -199,6 +199,8 @@ gsap.to(aboutMeContainer, {
 const skills = document.querySelector('#skillsTitle')
 const skillsDiv = document.querySelector('#skills')
 const skillsContainer = document.querySelector('#skillsContainer')
+const leadercontainer = document.querySelector('#leadercontainer')
+
 
 gsap.set(skills, {
     xPercent: -100,
@@ -206,6 +208,11 @@ gsap.set(skills, {
 })
 
 gsap.set(skillsContainer, {
+    xPercent: 30,
+    opacity: 0
+})
+
+gsap.set(leadercontainer, {
     xPercent: 30,
     opacity: 0
 })
@@ -232,6 +239,16 @@ gsap.to(skillsContainer, {
     opacity: 1,
 })
 
+gsap.to(leadercontainer, {
+    scrollTrigger: {
+        trigger: leadercontainer,
+        start: 'top bottom',
+        end: 'bottom 90%',
+        scrub: true
+    },
+    xPercent: 0,
+    opacity: 1,
+})
 
 //Contacts
 const contacts = document.querySelector('#contactsTitle')
