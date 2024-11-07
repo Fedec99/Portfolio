@@ -502,6 +502,7 @@ h1 span {
   font-size: 1.4em;
 }
 
+
 /* Skills */
 
 #skills {
@@ -658,14 +659,14 @@ html.lenis {
   color: #ddd; 
 }
 
-.html {width: 69%; background-color: rgb(219, 70, 15);} 
-.css {width: 70%; background-color: #1877c5;} 
-.js {width: 66%; background-color: rgb(199, 171, 12);} 
-.boot {width: 64%; background-color: rgb(138, 43, 226)}
-.sass {width: 56%; background-color: rgb(219, 22, 81);} 
-.type {width: 80%; background-color: rgb(2, 5, 163);}
-.ang {width: 77%; background-color: rgb(196, 8, 64);}
-.jav {width: 81%; background-color: #267507;}
+.html {width: 62.33%; background-color: rgb(219, 70, 15);} 
+.css {width: 65.67%; background-color: #1877c5;} 
+.js {width: 57.67%; background-color: rgb(199, 171, 12);} 
+.boot {width: 57%; background-color: rgb(138, 43, 226)}
+.sass {width: 33%; background-color: rgb(219, 22, 81);} 
+.type {width: 81%; background-color: rgb(2, 5, 163);}
+.ang {width: 86.67%; background-color: rgb(196, 8, 17);}
+.jav {width: 86.34%; background-color: #267507;}
 
 footer {
   background-color: rgba(255,255,255,0.1);
