@@ -684,3 +684,96 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/*Responsive*/
+
+/*if screen width is less than or equal to 991px then*/
+@media(max-width: 991px){
+  .home{
+    background-position: center;
+  }
+ .classes .content{
+   flex-wrap: wrap;
+ }
+.classes .content .box {
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+.classes .content .img{
+ display: none;
+}
+.start-today .content .box{
+ padding:15px;
+}
+}
+
+/*if screen width is less than or equal to 767px then*/
+@media(max-width: 767px){
+ .home h1{
+     font-size: 40px;
+ }
+ .about .content{
+    flex-wrap: wrap;
+ }
+ .about .content .box {
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+.service .content{
+ flex-wrap: wrap;
+}
+.service .content .box {
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+.classes .content .class-items .item{
+ flex-wrap: wrap;
+}
+.classes .content .class-items .item .item-text, 
+.classes .content .class-items .item .item-img {
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+.schedule .content{
+ flex-wrap: wrap;
+}
+.schedule .content .box{
+flex: 0 0 100%;
+   max-width: 100%;	
+}
+.start-today .content{
+ flex-wrap: wrap;
+}
+.start-today .content .box {
+   flex: 0 0 100%;
+   max-width: 100%;
+ }
+.gallery .content{
+ flex-wrap: wrap;
+}
+.gallery .content .box {
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+.price-package .content{
+ flex-wrap: wrap;
+}
+.price-package .content .box {
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+.contact .content{
+ flex-wrap: wrap;
+}
+.contact .content .box {
+   flex: 0 0 100%;
+   max-width: 100%;
+}
+}
+
+/*if screen width is less than or equal to 550px then*/
+@media(max-width: 550px){
+ .home h1{
+     font-size: 30px;
+ }
+}
